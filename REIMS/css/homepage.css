@@ -1,0 +1,111 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    /* width: 40%; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    width: 40vw;
+    background-color: #1e2125;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    width: 60vw;
+    background-color: aliceblue;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  h2{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+  }
+  p{
+    color: aliceblue;
+  }
+
+  body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgba(250, 250, 250)
+  }
+  
+  .container {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  
+  .container div > p span {
+    color: red;
+  }
+  
+  p {
+    position: relative;
+    top: 10px;
+    margin-bottom: 50px;
+  }
+  
+  p a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+  }
+  
+  .reg {
+    color: white;
+    background-color:#6f7f94;
+  }
+  
+  .log {
+    color: #000000;
+    background-color: #e1e6ee;
+    border: 1px solid #6f7f94;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: 0 0 20px #6f7f94;
+    background-color: #6f7f94;
+  }
+  
+  

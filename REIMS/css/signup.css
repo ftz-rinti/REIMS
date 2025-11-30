@@ -1,0 +1,91 @@
+
+body{	
+	font-family: 'Roboto', sans-serif;
+}
+div.loginHeader{
+	text-align: center;
+}
+.alignLeft{
+	text-align: left;
+}
+div.loginHeader{
+	margin-bottom: 100px;
+}
+div.loginHeader h1{
+	font-size: 50px;
+	color:#1e2125;
+	padding:0px;
+	margin:0px;
+    font-family: 'Libre Baskerville', serif;
+}
+div.loginHeader p{
+	color:#4B5563;
+	font-size: 25px;
+	margin:0px;
+	display: inline-block;
+}
+
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #030303;
+	margin:0 auto;
+}
+
+div.loginBody form{
+	margin:0 auto;
+	width: 200px;
+	background: #c0c8d4;
+	padding:50px;
+	border:2px solid #fff;
+	border-radius: 8px;
+	box-shadow: 10px 10px 5px lightblue;
+}
+
+div.loginInputsContainer{
+	margin-top:30px;
+}
+
+div.loginInputsContainer label{
+	display: block;
+	/* text-transform: uppercase; */
+	font-size: 15px;
+	color:#fff;
+}
+
+div.loginInputsContainer input{
+	height: 20px;
+	width:100%;
+	/* border:2px solid #000000; */
+	font-size:15px;
+	padding:5px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.loginButtonContainer{
+	margin-top:40px;
+	text-align: center;
+}
+
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #000000;
+	border:none;
+	color: #fff;
+}
+
+#errorMessage{
+	text-align: center;
+	color: red;
+	font-size: 15px;
+	padding: 11px;
+}
+
+#signPrompt{
+	text-align: center;
+	padding-top: 7px;
+	font-size: 12px;
+}

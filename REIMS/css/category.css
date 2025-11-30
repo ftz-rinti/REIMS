@@ -1,0 +1,11 @@
+body {
+    min-height: 100vh;
+    background-color: #3A3B3C;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
